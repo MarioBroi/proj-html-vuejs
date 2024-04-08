@@ -22,9 +22,9 @@
 
 - [] Sviluppare le varie zone del main
     - [x] Sezione Jumbotron
-    - [] Sezione Learn
-    - [] Sezione Upgrade
-    - [] Sezione Online
+    - [x] Sezione Learn
+    - [x] Sezione Upgrade
+    - [x] Sezione Online
     - [] Sezione Testimonials
     - [] Sezione Transform
     - [] Sezione Blog
