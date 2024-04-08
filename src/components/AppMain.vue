@@ -8,9 +8,24 @@ export default {
     <main class="site-main">
 
         <section class="jumbotron">
+
             <div class="jumbo-top">Commence Business</div>
+            <!-- /.jumbo-top -->
+
             <div class="jumbo-mid">Distant Mentoring Program</div>
+            <!-- /.jumbo-mid -->
+
             <button class="btn-jumbo">Download free guidebook <i class="fa-solid fa-arrow-right"></i></button>
+            <!-- /.btn-jumbo -->
+
+            <div class="side-tools">
+                <a href=""><i class="fa-solid fa-ruler-combined"></i></a>
+                <a href=""><i class="fa-solid fa-life-ring"></i></a>
+                <a href=""><i class="fa-regular fa-file-lines"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <!-- /.side tools -->
+
         </section>
         <!-- /.jumbotron -->
 
@@ -19,8 +34,10 @@ export default {
             <div class="jumbotron-left">
                 <div>everything in maxcoach</div>
                 <h3>Learn about our Work Culture at MaxCoach</h3>
-                <p>Spend some time to visit our website or head office and discover our current courses, enrollment
-                    procedure, and registration deadline. We're opening new classes every beginning of each month.</p>
+                <p>
+                    Spend some time to visit our website or head office and discover our current courses, enrollment
+                    procedure, and registration deadline. We're opening new classes every beginning of each month.
+                </p>
                 <div>Have questions? <a href="#">Get Free Guide</a></div>
             </div>
             <!-- /.jumbotron-left -->

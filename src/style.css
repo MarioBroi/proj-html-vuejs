@@ -14,6 +14,7 @@
   --proj-lighter: #f8f8f8;
   --proj-shade: #f5f1ed;
   --proj-dark: #696969;
+  --proj-darker: #000;
 }
 
 body {
@@ -102,6 +103,7 @@ body {
 /* #region Main */
 .site-main {
   .jumbotron {
+    position: relative;
     color: var(--proj-lighter);
     height: 550px;
     display: flex;
@@ -130,6 +132,21 @@ body {
       border-radius: 12px;
       color: var(--proj-focus);
       background-color: var(--proj-lighter);
+    }
+
+    .side-tools {
+      position: absolute;
+      right: 0;
+      display: flex;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      flex-direction: column;
+      background-color: var(--proj-light);
+
+      & i {
+        color: var(--proj-darker);
+        padding: 0.5rem;
+      }
     }
   }
 }
