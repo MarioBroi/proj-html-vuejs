@@ -15,10 +15,10 @@
 - [x] Importare tutto il materiale nelle cartelle pubbliche
 - [x] Impostare il macro layout suddividendo in sezioni il progetto
 
-- [] Sviluppare l'header
-    - [] Dropdown list
-    - [] Logo
-    - [] cart, profile, searchbar
+- [x] Sviluppare l'header
+    - [x] Dropdown list
+    - [x] Logo
+    - [x] Utility buttons
 
 - [] Sviluppare le varie zone del main
     - [] Sezione Jumbotrone
