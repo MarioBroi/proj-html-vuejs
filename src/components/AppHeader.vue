@@ -10,34 +10,34 @@ export default {
 
         <div class="dropdown">
 
-            <button class="home">
+            <a href="" class="home">
                 Home <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.home -->
 
-            <button class="pages">
+            <a href="" class="pages">
                 Pages <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.pages -->
 
-            <button class="courses">
+            <a href="" class="courses">
                 Courses <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.courses -->
 
-            <button class="features">
+            <a href="" class="features">
                 Features <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.features -->
 
-            <button class="blog">
+            <a href="" class="blog">
                 Blog <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.blog -->
 
-            <button class="shop">
+            <a href="" class="shop">
                 Shop <i class="fa-solid fa-chevron-down"></i>
-            </button>
+            </a>
             <!-- /.shop -->
 
         </div>
@@ -50,14 +50,15 @@ export default {
 
         <div class="utility-buttons">
 
-            <div class="cart">
+            <a href="" class="cart">
                 <i class="fa-solid fa-cart-shopping"></i>
-            </div>
+                <span class="cart-number">0</span>
+            </a>
             <!-- /.cart -->
 
-            <div class="profile">
-                <i class="fa-regular fa-user"></i>
-            </div>
+            <a href="" class="profile">
+                <i class="fa-regular fa-circle-user"></i>
+            </a>
             <!-- /.profile -->
 
             <div class="search">
@@ -74,12 +75,4 @@ export default {
 
 </template>
 
-<style>
-
-.site-header, .utility-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-</style>
+<style></style>

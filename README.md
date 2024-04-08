@@ -37,6 +37,6 @@
     - [x] Info
     - [x] Rights
 
-- [] Stilizzare l'header
+- [x] Stilizzare l'header
 - [] Stilizzare il main
 - [] Stilizzare il footer
