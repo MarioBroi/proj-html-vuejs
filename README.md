@@ -35,7 +35,7 @@
     - [x] Explore
     - [x] Plain
     - [x] Info
-    - [] Rights
+    - [x] Rights
 
 - [] Stilizzare l'header
 - [] Stilizzare il main
