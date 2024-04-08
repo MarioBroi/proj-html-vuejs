@@ -23,6 +23,21 @@ body {
   font-style: normal;
 }
 
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.important-text {
+  color: var(--proj-focus);
+  font-weight: 300;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -102,6 +117,7 @@ body {
 
 /* #region Main */
 .site-main {
+
   .jumbotron {
     position: relative;
     color: var(--proj-lighter);
@@ -149,6 +165,87 @@ body {
       }
     }
   }
+
+  /* /jumbotron */
+
+  .learn {
+    .learn-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8rem;
+
+      .learn-left {
+        width: 400px;
+        padding-right: 8rem;
+
+        & h3 {
+          font-size: 30px;
+        }
+
+        & p {
+          padding-top: 1rem;
+          font-size: 13px;
+        }
+
+        .learn-question {
+          font-size: 13px;
+          padding-top: 2rem;
+        }
+      }
+
+      .learn-right {
+        position: relative;
+
+        & img {
+          border-radius: 5px;
+        }
+
+        .learn-img {
+          position: absolute;
+          right: 0;
+          bottom: -190px;
+        }
+
+        .learn-rigth-img {
+          width: 170px;
+          position: absolute;
+          right: 0;
+          margin-right: -3rem;
+          top: -205px;
+        }
+
+        .shape-07 {
+          width: 120px;
+          position: absolute;
+          right: 0;
+          margin-top: -2.7rem;
+          margin-right: 4rem;
+          top: -160px;
+        }
+        
+      }
+    }
+
+    .learn-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      .learn-number {
+        color: var(--proj-focus);
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .learn-bottom-center {
+        padding: 5rem;
+      }
+    }
+
+  }
+
 }
 
 /* #endregion Main */

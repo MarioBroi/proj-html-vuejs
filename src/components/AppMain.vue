@@ -29,70 +29,81 @@ export default {
         </section>
         <!-- /.jumbotron -->
 
-        <section class="learn">
+        <section class="learn container">
 
-            <div class="jumbotron-left">
-                <div>everything in maxcoach</div>
-                <h3>Learn about our Work Culture at MaxCoach</h3>
-                <p>
-                    Spend some time to visit our website or head office and discover our current courses, enrollment
-                    procedure, and registration deadline. We're opening new classes every beginning of each month.
-                </p>
-                <div>Have questions? <a href="#">Get Free Guide</a></div>
+            <div class="learn-top">
+
+                <div class="learn-left">
+                    <div class="sub-title">everything in maxcoach</div>
+                    <h3>
+                        Learn about our <span class="important-text">Work Culture</span> at MaxCoach
+                    </h3>
+                    <p>
+                        Spend some time to visit our website or head office and discover our current courses, enrollment
+                        procedure, and registration deadline. We're opening new classes every beginning of each month.
+                    </p>
+                    <div class="learn-question">Have questions? <a href="#" class="important-text">Get Free Guide</a>
+                    </div>
+                </div>
+                <!-- /.learn-left -->
+
+                <div class="learn-right">
+                    <img src="/public/img/maxcoach-shape-07.png" alt="" class="shape-07">
+                    <img src="/public/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt=""
+                        class="learn-img">
+                    <img src="/public/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt=""
+                        class="learn-rigth-img">
+                </div>
+                <!-- /.learn-right -->
+
             </div>
-            <!-- /.jumbotron-left -->
+            <!-- /.learn-top -->
 
-            <div class="jumbotron-right">
-                <img src="/public/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-                <img src="/public/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
-            </div>
-            <!-- /.jumbotron-right -->
+            <div class="learn-bottom">
 
-            <div class="jumbotron-bottom">
-
-                <div class="jumbotron-bottom-left">
+                <div class="learn-bottom-left">
 
                     <div class="learn-number">
-                        129+
+                        129&plus;
                     </div>
                     <!-- /.learn-number -->
-                    <div>
+                    <div class="sub-title">
                         enrolled learners
                     </div>
 
                 </div>
-                <!-- /.jumbotron-bottom-left -->
+                <!-- /.learn-bottom-left -->
 
-                <div class="jumbotron-bottom-center">
+                <div class="learn-bottom-center">
 
                     <div class="learn-number">
                         80
                     </div>
                     <!-- /.learn-number -->
 
-                    <div>
+                    <div class="sub-title">
                         finished sessions
                     </div>
 
                 </div>
-                <!-- /.jumbotron-bottom-center -->
+                <!-- /.learn-bottom-center -->
 
-                <div class="jumbotron-bottom-left">
+                <div class="learn-bottom-left">
 
                     <div class="learn-number">
                         4&percnt;
                     </div>
                     <!-- /.learn-number -->
 
-                    <div>
+                    <div class="sub-title">
                         satisfaction rate
                     </div>
 
                 </div>
-                <!-- /.jumbotron-bottom-left -->
+                <!-- /.learn-bottom-left -->
 
             </div>
-            <!-- /.jumbotron-bottom -->
+            <!-- /.learn-bottom -->
 
         </section>
         <!-- /.learn -->
