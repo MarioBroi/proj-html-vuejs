@@ -100,4 +100,38 @@ body {
 /* #endregion Header */
 
 /* #region Main */
+.site-main {
+  .jumbotron {
+    color: var(--proj-lighter);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/img/home-3-hero-bg.jpg);
+    background-size: cover;
+
+    .jumbo-top {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .jumbo-mid {
+      font-size: 45px;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: 2rem;
+    }
+
+    .btn-jumbo {
+      font-weight: bold;
+      padding: 1rem;
+      border: none;
+      border-radius: 12px;
+      color: var(--proj-focus);
+      background-color: var(--proj-lighter);
+    }
+  }
+}
+
 /* #endregion Main */

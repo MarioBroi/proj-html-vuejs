@@ -8,9 +8,9 @@ export default {
     <main class="site-main">
 
         <section class="jumbotron">
-            <div>Commebce Business</div>
-            <h3>Distant Mentoring Program</h3>
-            <button>Download free guidebook <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="jumbo-top">Commence Business</div>
+            <div class="jumbo-mid">Distant Mentoring Program</div>
+            <button class="btn-jumbo">Download free guidebook <i class="fa-solid fa-arrow-right"></i></button>
         </section>
         <!-- /.jumbotron -->
 
