@@ -31,8 +31,9 @@
     - [x] Sezione Newsletter
 
 - [] Sviluppare il footer
-    - [] Adress
+    - [x] Adress
     - [] Explore
+    - [] Plain
     - [] Info
     - [] Rights
 
