@@ -16,6 +16,12 @@
   --proj-dark: #696969;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -27,6 +33,7 @@
 
   .dropdown {
     font-size: 14px;
+
     a {
       padding: 0 0.8rem 0 0;
       text-decoration: none;
@@ -91,3 +98,6 @@
 }
 
 /* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
