@@ -199,7 +199,83 @@ export default {
         </section>
         <!-- /.online -->
 
-        <section class="testimonials"></section>
+        <section class="testimonials">
+
+            <div class="testimonials-left">
+                <h5>testimonials</h5>
+                <h3>Why Do People <span>&ast;Hearts&ast;</span> Us?</h3>
+                <p>Seeking for verbals of our service quality? Find them here. Everything is transparent and
+                    straightforward for your sense of justification.</p>
+                <a href="#">View all <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <!-- /.testimonials-left -->
+
+            <div class="testimonials-right">
+                <div class="testimonials-card">
+                    <p>
+                        The MaxCoach team works really hard to ensure high level of quality
+                    </p>
+                    <p>
+                        I am happy with the arrangments of lessons and subjects. They
+                    </p>
+                    <div class="testimonial">
+                        <img src="/public/img/testimonial-avata-03.jpg" alt="">
+                        <div>
+                            madley pondor
+                        </div>
+                        <div>
+                            / IT Specialist
+                        </div>
+                    </div>
+                    <!-- /.testimonial -->
+                </div>
+                <!-- /.testimonials-card -->
+
+                <div class="testimonials-card">
+                    <p>
+                        Professional team of specialists and passionate mentors at reach
+                    </p>
+                    <p>
+                        I need to get a certification for English proficiency and MaxCoach is my best choice. Their
+                        tutor are samrt and professional when dealing with students.
+                    </p>
+                    <div class="testimonial">
+                        <img src="/public/img/testimonial-avata-01.jpg" alt="">
+                        <div>
+                            madley pondor
+                        </div>
+                        <div>
+                            / IT Specialist
+                        </div>
+                    </div>
+                    <!-- /.testimonial -->
+                </div>
+                <!-- /.testimonials-card -->
+
+                <div class="testimonials-card">
+                    <p>
+                        Professional team of specialists and passionate mentors at reach
+                    </p>
+                    <p>
+                        I need to get a certification for English proficiency and MaxCoach is my best choice. Their
+                        tutor are samrt and professional when dealing with students.
+                    </p>
+                    <div class="testimonial">
+                        <img src="/public/img/testimonial-avata-02.jpg" alt="">
+                        <div>
+                            mina hollance
+                        </div>
+                        <div>
+                            / Freelancer
+                        </div>
+                    </div>
+                    <!-- /.testimonial -->
+                </div>
+                <!-- /.testimonials-card -->
+
+            </div>
+            <!-- /.testimonials-right -->
+        </section>
         <!-- /.testimonials -->
 
         <section class="transform"></section>

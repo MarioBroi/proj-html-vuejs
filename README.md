@@ -25,7 +25,7 @@
     - [x] Sezione Learn
     - [x] Sezione Upgrade
     - [x] Sezione Online
-    - [] Sezione Testimonials
+    - [x] Sezione Testimonials
     - [] Sezione Transform
     - [] Sezione Blog
     - [] Sezione Newsletter
