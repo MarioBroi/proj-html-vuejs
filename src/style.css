@@ -223,7 +223,7 @@ body {
           margin-right: 4rem;
           top: -160px;
         }
-        
+
       }
     }
 
@@ -243,9 +243,76 @@ body {
         padding: 5rem;
       }
     }
+  }
+
+  /* /learn */
+
+  .upgrade {
+
+    .upgrade-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .upgrade-left {
+        .upgrade-img {
+          width: 500px;
+          position: relative;
+        }
+
+        .youtube {
+          position: absolute;
+          margin-left: -300px;
+          margin-top: 140px;
+        }
+
+        .shape-5 {
+          position: absolute;
+          left: -60px;
+          top: 60px;
+        }
+
+        .shape-7 {
+          position: absolute;
+          left: 440px;
+          top: 310px;
+        }
+
+      }
+
+      .upgrade-rigth {
+        padding: 0 7rem;
+
+        & h1 {
+          font-size: 30px;
+        }
+
+        & p {
+          padding: 1rem 0;
+          font-size: 13px;
+        }
+
+        .guide-download {
+          font-size: 13px;
+          text-decoration: none;
+          color: var(--proj-darker);
+          font-weight: bold;
+        }
+      }
+
+    }
+
+    .upgrade-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 6rem 0;
+    }
 
   }
 
 }
+
 
 /* #endregion Main */

@@ -108,34 +108,42 @@ export default {
         </section>
         <!-- /.learn -->
 
-        <section class="upgrade">
+        <section class="upgrade container">
 
-            <div class="upgrade-left">
-                <img src="/public/img/stock-full-hd-11-670x450.jpg" alt="">
+            <div class="upgrade-top">
+                <div class="upgrade-left">
+                    <img src="/public/img/maxcoach-shape-05-100x100.png" alt="" class="shape-5">
+                    <img src="/public/img/maxcoach-shape-07-100x100.png" alt="" class="shape-7">
+                    <img src="/public/img/stock-full-hd-11-670x450.jpg" alt="" class="upgrade-img">
+                    <img src="/public/img/icon-youtube-play.png" alt="" class="youtube">
+                </div>
+                <!-- /.upgrade-left -->
+
+                <div class="upgrade-rigth">
+                    <div class="sub-title">how we work</div>
+                    <h1>Upgrade Your Skills <span class="important-text">Upgrade Your Life</span></h1>
+                    <p>Opening up more opportunities in front of you to get the ticket to more enjoyable door in life.
+                        Getting equipped with new skills for new sets of insights into your career. MaxCoach accompany
+                        learners in every stage of learning.
+                    </p>
+                    <a href="#" class="guide-download">
+                        Download free guidebook <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- /.upgrade-rigth -->
+
             </div>
-            <!-- /.upgrade-left -->
+            <!-- /.upgrade-top -->
 
-            <div class="upgrade-rigth">
-                <div>how we work</div>
-                <h3>Upgrade Your Skills <span>Upgrade Your Life</span></h3>
-                <p>Opening up more opportunities in front of you to get the ticket to more enjoyable door in life.
-                    Getting equipped with new skills for new sets of insights into your career. MaxCoach accompany
-                    learners in every stage of learning.
-                </p>
-                <a href="#">
-                    Download free guidebook <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-            <!-- /.upgrade-rigth -->
-
-            <div>
+            <div class="upgrade-bottom sub-title">
                 join maxcoach at best
             </div>
+            <!-- /.upgrade-bottom -->
 
         </section>
         <!-- /.upgrade -->
 
-        <section class="online">
+        <section class="online container">
             <h3>Latest Online <span>Courses</span></h3>
             <div class="carousell">
                 <div class="col">
@@ -227,7 +235,7 @@ export default {
         </section>
         <!-- /.online -->
 
-        <section class="testimonials">
+        <section class="testimonials container">
 
             <div class="testimonials-left">
                 <h5>testimonials</h5>
@@ -306,7 +314,7 @@ export default {
         </section>
         <!-- /.testimonials -->
 
-        <section class="transform">
+        <section class="transform container">
             <div class="transform-left">
                 <img src="/public/img/home-3-team-image.png" alt="">
             </div>
@@ -325,7 +333,7 @@ export default {
         </section>
         <!-- /.transform -->
 
-        <section class="blog">
+        <section class="blog container">
             <div>read for more joyment</div>
             <h3>Latest From <span>Our Blogs</span></h3>
             <div class="col">
