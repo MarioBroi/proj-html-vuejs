@@ -74,4 +74,12 @@ export default {
 
 </template>
 
-<style></style>
+<style>
+
+.site-header, .utility-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+</style>

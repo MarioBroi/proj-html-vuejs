@@ -21,7 +21,7 @@
     - [x] Utility buttons
 
 - [] Sviluppare le varie zone del main
-    - [] Sezione Jumbotrone
+    - [x] Sezione Jumbotron
     - [] Sezione Learn
     - [] Sezione Upgrade
     - [] Sezione Online
