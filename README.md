@@ -33,7 +33,7 @@
 - [] Sviluppare il footer
     - [x] Adress
     - [x] Explore
-    - [] Plain
+    - [x] Plain
     - [] Info
     - [] Rights
 

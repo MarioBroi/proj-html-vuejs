@@ -26,12 +26,15 @@ export default {
             <h5>Explore</h5>
             <a href="">Start here</a>
             <a href="">Blog</a>
-            <a href="">About Us</a>
+            <a href="">About us</a>
         </div>
         <!-- /.explore -->
 
         <div class="plain">
-
+            <h5></h5>
+            <a href="">Sucess story</a>
+            <a href="">Courses</a>
+            <a href="">Contact us</a>
         </div>
         <!-- /.plain -->
 
