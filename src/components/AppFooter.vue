@@ -56,6 +56,10 @@ export default {
         </div>
         <!-- /.footer-bottom -->
 
+        <a href="#" class="up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
     </footer>
     <!-- /.site-footer -->
 
