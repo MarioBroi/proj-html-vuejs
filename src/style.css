@@ -1,0 +1,18 @@
+/* #region Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --proj-lighest: #ffffff;
+  --proj-focus: #10ad96;
+  --proj-logo: #3f3a64;
+  --proj-logo-ligth: #8c89a2;
+  --proj-light: #f5f7fa;
+  --proj-lighter: #f8f8f8;
+  --proj-shade: #f5f1ed;
+  --proj-dark: #696969;
+}
+/* #endregion Common */
