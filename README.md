@@ -20,7 +20,7 @@
     - [x] Logo
     - [x] Utility buttons
 
-- [] Sviluppare le varie zone del main
+- [x] Sviluppare le varie zone del main
     - [x] Sezione Jumbotron
     - [x] Sezione Learn
     - [x] Sezione Upgrade
@@ -28,7 +28,7 @@
     - [x] Sezione Testimonials
     - [x] Sezione Transform
     - [x] Sezione Blog
-    - [] Sezione Newsletter
+    - [x] Sezione Newsletter
 
 - [] Sviluppare il footer
     - [] Adress

@@ -358,7 +358,12 @@ export default {
         </section>
         <!-- /.blog -->
 
-        <section class="newsletter"></section>
+        <section class="newsletter">
+            <h3>Subscribe <span>Newsletters</span></h3>
+            <p>Enter your email adess to register to our newsletter subscripttion delivered on a regular basis!</p>
+            <input type="text" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </section>
         <!-- /.newsletter -->
 
     </main>
