@@ -23,7 +23,10 @@ export default {
         <!-- /.adress -->
 
         <div class="explore">
-
+            <h5>Explore</h5>
+            <a href="">Start here</a>
+            <a href="">Blog</a>
+            <a href="">About Us</a>
         </div>
         <!-- /.explore -->
 
