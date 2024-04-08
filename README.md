@@ -34,7 +34,7 @@
     - [x] Adress
     - [x] Explore
     - [x] Plain
-    - [] Info
+    - [x] Info
     - [] Rights
 
 - [] Stilizzare l'header

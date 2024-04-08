@@ -39,7 +39,11 @@ export default {
         <!-- /.plain -->
 
         <div class="info">
-
+            <h5>Informations</h5>
+            <a href="">Membership</a>
+            <a href="">Purchase guide</a>
+            <a href="">Privacy policy</a>
+            <a href="">Terms of service</a>
         </div>
         <!-- /.info -->
 
