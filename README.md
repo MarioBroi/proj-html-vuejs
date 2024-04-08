@@ -26,7 +26,7 @@
     - [x] Sezione Upgrade
     - [x] Sezione Online
     - [x] Sezione Testimonials
-    - [] Sezione Transform
+    - [x] Sezione Transform
     - [] Sezione Blog
     - [] Sezione Newsletter
 

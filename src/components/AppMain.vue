@@ -278,7 +278,23 @@ export default {
         </section>
         <!-- /.testimonials -->
 
-        <section class="transform"></section>
+        <section class="transform">
+            <div class="transform-left">
+                <img src="/public/img/home-3-team-image.png" alt="">
+            </div>
+            <!-- /.transform-left -->
+
+            <div class="transorm-right">
+                <div>everything in maxcoach</div>
+                <h3>We're Here To <span>Transform</span> You!</h3>
+                <p>
+                    As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help
+                    you develop and graw at your best.
+                </p>
+                <button>Get Free Guide</button>
+            </div>
+            <!-- /.transorm-right -->
+        </section>
         <!-- /.transform -->
 
         <section class="blog"></section>
