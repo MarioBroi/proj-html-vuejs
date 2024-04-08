@@ -27,7 +27,7 @@
     - [x] Sezione Online
     - [x] Sezione Testimonials
     - [x] Sezione Transform
-    - [] Sezione Blog
+    - [x] Sezione Blog
     - [] Sezione Newsletter
 
 - [] Sviluppare il footer
