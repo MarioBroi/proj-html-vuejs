@@ -30,7 +30,7 @@ body {
 
 .sub-title {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .important-text {
@@ -43,13 +43,17 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 55px;
 }
 
 svg {
   fill: var(--proj-lightest);
   width: 100%;
   background-color: var(--proj-light);
+}
+
+button {
+  cursor: pointer;
 }
 
 /* #endregion Common */
@@ -420,7 +424,6 @@ svg {
 
       & h1 {
         padding: 1rem 0;
-        font-size: 55px;
       }
 
       & p {
@@ -485,7 +488,7 @@ svg {
           padding-bottom: 1.5rem;
         }
 
-        .t-card-text{
+        .t-card-text {
           font-size: 22px;
         }
 
@@ -547,7 +550,37 @@ svg {
 
     }
   }
-}
 
+  /* /testimonials */
+
+  .transform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 5rem;
+
+    .transorm-right {
+      width: 600px;
+
+      p {
+        font-size: 20px;
+      }
+
+      .transform-btn {
+        padding: 1rem 5rem;
+        margin-top: 2rem;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--proj-lightest);
+        background-color: var(--proj-focus);
+        border-radius: 8px;
+        border: none;
+      }
+    }
+  }
+
+  /* /transform */
+}
 
 /* #endregion Main */

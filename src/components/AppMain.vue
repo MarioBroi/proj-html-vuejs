@@ -301,13 +301,13 @@ export default {
                             <div class="testimonial-name">
                                 basilio cocco
                             </div> -->
-                            <!-- /.testimonial-name -->
-                            <!-- <div class="testimonial-role">
+                    <!-- /.testimonial-name -->
+                    <!-- <div class="testimonial-role">
                                 / IT Specialist
                             </div> -->
-                            <!-- /.testimonial-role -->
-                        <!-- </div> -->
-                        <!-- /.testimonial-content -->
+                    <!-- /.testimonial-role -->
+                    <!-- </div> -->
+                    <!-- /.testimonial-content -->
                     <!-- </div> -->
                     <!-- /.testimonial -->
                 </div>
@@ -340,7 +340,7 @@ export default {
                 <!-- /.testimonials-card -->
 
                 <div class="testimonials-card-back-bottom">
-<!--                     <p class="card-title">
+                    <!--                     <p class="card-title">
                         Professional team of specialists and passionate mentors at reach
                     </p>
                     <p>
@@ -375,13 +375,13 @@ export default {
             <!-- /.transform-left -->
 
             <div class="transorm-right">
-                <div>everything in maxcoach</div>
-                <h3>We're Here To <span>Transform</span> You!</h3>
+                <div class="sub-title">everything in maxcoach</div>
+                <h1>We're Here To <span class="important-text">Transform</span> You!</h1>
                 <p>
                     As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help
                     you develop and graw at your best.
                 </p>
-                <button>Get Free Guide</button>
+                <button class="transform-btn">Get Free Guide</button>
             </div>
             <!-- /.transorm-right -->
         </section>
