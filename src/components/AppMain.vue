@@ -278,10 +278,9 @@ export default {
 
         <section class="testimonials container">
 
-
             <div class="testimonials-left">
-                <h5>testimonials</h5>
-                <h3>Why Do People <span>&ast;Hearts&ast;</span> Us?</h3>
+                <div class="sub-title">testimonials</div>
+                <h1>Why Do People <span class="important-text">&ast;Hearts&ast;</span> Us?</h1>
                 <p>Seeking for verbals of our service quality? Find them here. Everything is transparent and
                     straightforward for your sense of justification.</p>
                 <a href="#">View all <i class="fa-solid fa-arrow-right"></i></a>
@@ -289,67 +288,80 @@ export default {
             <!-- /.testimonials-left -->
 
             <div class="testimonials-right">
-                <div class="testimonials-card">
-                    <p>
+                <div class="testimonials-card-back-top">
+                    <p class="card-title">
                         The MaxCoach team works really hard to ensure high level of quality
                     </p>
                     <p>
                         I am happy with the arrangments of lessons and subjects. They
                     </p>
-                    <div class="testimonial">
+                    <!-- <div class="testimonial">
                         <img src="/public/img/testimonial-avata-03.jpg" alt="">
-                        <div>
-                            madley pondor
-                        </div>
-                        <div>
-                            / IT Specialist
-                        </div>
-                    </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-name">
+                                basilio cocco
+                            </div> -->
+                            <!-- /.testimonial-name -->
+                            <!-- <div class="testimonial-role">
+                                / IT Specialist
+                            </div> -->
+                            <!-- /.testimonial-role -->
+                        <!-- </div> -->
+                        <!-- /.testimonial-content -->
+                    <!-- </div> -->
                     <!-- /.testimonial -->
                 </div>
-                <!-- /.testimonials-card -->
+                <!-- /.testimonials-card-back -->
 
                 <div class="testimonials-card">
-                    <p>
+                    <p class="card-title">
                         Professional team of specialists and passionate mentors at reach
                     </p>
-                    <p>
+                    <p class="t-card-text">
                         I need to get a certification for English proficiency and MaxCoach is my best choice. Their
                         tutor are samrt and professional when dealing with students.
                     </p>
                     <div class="testimonial">
                         <img src="/public/img/testimonial-avata-01.jpg" alt="">
-                        <div>
-                            madley pondor
+                        <div class="testimonial-content">
+                            <div class="testimonial-name">
+                                madley pondor
+                            </div>
+                            <!-- /.testimonial-name -->
+                            <div class="testimonial-role">
+                                / IT Specialist
+                            </div>
+                            <!-- /.testimonial-role -->
                         </div>
-                        <div>
-                            / IT Specialist
-                        </div>
+                        <!-- /.testimonial-content -->
                     </div>
                     <!-- /.testimonial -->
                 </div>
                 <!-- /.testimonials-card -->
 
-                <div class="testimonials-card">
-                    <p>
+                <div class="testimonials-card-back-bottom">
+<!--                     <p class="card-title">
                         Professional team of specialists and passionate mentors at reach
                     </p>
                     <p>
                         I need to get a certification for English proficiency and MaxCoach is my best choice. Their
                         tutor are samrt and professional when dealing with students.
-                    </p>
+                    </p> -->
                     <div class="testimonial">
                         <img src="/public/img/testimonial-avata-02.jpg" alt="">
-                        <div>
-                            mina hollance
+                        <div class="testimonial-content">
+                            <div class="testimonial-name">
+                                mina hollance
+                            </div>
+                            <div class="testimonial-role">
+                                / Freelancer
+                            </div>
                         </div>
-                        <div>
-                            / Freelancer
-                        </div>
+                        <!-- /.testimonial-content -->
                     </div>
                     <!-- /.testimonial -->
                 </div>
-                <!-- /.testimonials-card -->
+                <!-- /.testimonials-card-back -->
 
             </div>
             <!-- /.testimonials-right -->
