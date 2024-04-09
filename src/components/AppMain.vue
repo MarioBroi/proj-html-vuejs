@@ -449,11 +449,14 @@ export default {
         </section>
         <!-- /.blog -->
 
-        <section class="newsletter">
-            <h3>Subscribe <span>Newsletters</span></h3>
-            <p>Enter your email adess to register to our newsletter subscripttion delivered on a regular basis!</p>
-            <input type="text" placeholder="Enter your email">
-            <button>Subscribe</button>
+        <section class="newsletter container">
+            <h1>Subscribe <span class="important-text">Newsletters</span></h1>
+            <p>Enter your email adess to register to our newsletter subscription delivered on a regular basis!</p>
+            <div class="newsletter-subscribe">
+                <input type="text" placeholder="Enter your email" class="">
+                <button>Subscribe</button>
+            </div>
+            <!-- /.newsletter-sunscribe -->
         </section>
         <!-- /.newsletter -->
 
