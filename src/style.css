@@ -38,6 +38,20 @@ body {
   font-weight: 300;
 }
 
+.bg-light {
+  background-color: var(--proj-light);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+svg{
+  fill: var(--proj-lightest);
+  width: 100%;
+  background-color: var(--proj-light);
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -284,10 +298,6 @@ body {
       .upgrade-rigth {
         padding: 0 7rem;
 
-        & h1 {
-          font-size: 30px;
-        }
-
         & p {
           padding: 1rem 0;
           font-size: 13px;
@@ -312,6 +322,91 @@ body {
 
   }
 
+  /* /upgrade */
+
+  .online {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .carousell {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+
+      .col {
+        padding: 1rem;
+
+        .card {
+          margin: 0 auto;
+          background-color: var(--proj-lightest);
+
+          & img {
+            width: 100%;
+            object-fit: fill;
+          }
+
+          .card-content {
+            padding: 0.5rem;
+
+            .online-price {
+              color: var(--proj-focus);
+              font-weight: bold;
+            }
+
+            & p {
+              font-size: 15px;
+              font-weight: bold;
+            }
+
+            .card-bottom {
+              display: flex;
+
+              .lessons,
+              .students {
+                color: var(--proj-dark);
+                font-size: 12px;
+                padding: 1rem 1.5rem 1rem 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .circles {
+      color: var(--proj-dark);
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+
+      & i {
+        padding: 0.3rem;
+      }
+
+      .active {
+        color: var(--proj-darker);
+        font-size: 13px;
+        
+      }
+    }
+
+    .online-bottom {
+      padding: 3rem;
+      width: 600px;
+      text-align: center;
+
+      & p {
+        font-size: 15px;
+
+        & a {
+          color: var(--proj-darker);
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
 
 
