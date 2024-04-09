@@ -30,7 +30,7 @@
     - [x] Sezione Blog
     - [x] Sezione Newsletter
 
-- [] Sviluppare il footer
+- [x] Sviluppare il footer
     - [x] Adress
     - [x] Explore
     - [x] Plain

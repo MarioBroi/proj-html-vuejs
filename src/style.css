@@ -16,6 +16,7 @@
   --proj-dark: #696969;
   --proj-darker: #000;
   --proj-footer-bg: #171621;
+  --proj-free: #ee7455;
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 30px;
 }
 
 svg {
@@ -198,10 +199,6 @@ button {
         width: 400px;
         padding-right: 8rem;
 
-        & h3 {
-          font-size: 30px;
-        }
-
         & p {
           padding-top: 1rem;
           font-size: 13px;
@@ -280,6 +277,15 @@ button {
           position: relative;
         }
 
+        & svg {
+          transform: scale(0.5);
+          position: absolute;
+          width: 200px;
+          left: -90px;
+          top: -90px;
+          fill: var(--proj-lightest);
+        }
+
         .youtube {
           position: absolute;
           margin-left: -300px;
@@ -288,20 +294,20 @@ button {
 
         .shape-5 {
           position: absolute;
-          left: -60px;
-          top: 60px;
+          left: -70px;
+          top: 40px;
         }
 
         .shape-7 {
           position: absolute;
-          left: 440px;
-          top: 310px;
+          left: 410px;
+          top: 290px;
         }
 
       }
 
       .upgrade-rigth {
-        padding: 0 7rem;
+        padding: 0 5rem;
 
         & p {
           padding: 1rem 0;
@@ -322,7 +328,7 @@ button {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 6rem 0;
+      margin: 6rem 0 1rem;
     }
 
   }
@@ -346,10 +352,23 @@ button {
         .card {
           margin: 0 auto;
           background-color: var(--proj-lightest);
+          position: relative;
+          border-radius: 5px;
 
           & img {
             width: 100%;
             object-fit: fill;
+            border-radius: 5px;
+          }
+
+          .free {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: var(--proj-lightest);
+            background-color: var(--proj-free);
+            padding: 0.1rem 0.5rem;
+            border-top-right-radius: 5px;
           }
 
           .card-content {
@@ -428,7 +447,7 @@ button {
       }
 
       & p {
-        padding: 2rem 0 4rem;
+        padding-bottom: 2rem;
         font-size: 18px;
       }
 
@@ -447,8 +466,8 @@ button {
       align-items: center;
 
       .testimonials-card-back-top {
-        width: 580px;
-        padding: 3rem 3rem 0;
+        width: 400px;
+        padding: 2rem 3rem 0;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         opacity: 50%;
 
@@ -479,7 +498,7 @@ button {
       }
 
       .testimonials-card {
-        width: 850px;
+        width: 550px;
         padding: 3rem;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
@@ -519,8 +538,8 @@ button {
       }
 
       .testimonials-card-back-bottom {
-        width: 580px;
-        padding: 0 3rem 3rem;
+        width: 400px;
+        padding: 0 3rem 1.5rem;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         opacity: 50%;
 
@@ -559,19 +578,30 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
-    padding: 5rem;
+    position: relative;
+
+    .transform-left {
+      background-image: url(/public/img/maxcoach-shape-05-150x150.png), url(/public/img/maxcoach-shape-07-150x150.png), url(/public/img/maxcoach-shape-01.png);
+      background-repeat: no-repeat;
+      background-position: left 20% bottom 45%, right 33% bottom 11%, left 10% bottom 0;
+
+      & img {
+        padding: 10rem 3rem 10rem 12rem;
+      }
+    }
 
     .transorm-right {
       width: 600px;
+      padding-right: 15rem;
 
       p {
         font-size: 20px;
       }
 
       .transform-btn {
-        padding: 1rem 5rem;
+        padding: 1rem 3rem;
         margin-top: 2rem;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         color: var(--proj-lightest);
         background-color: var(--proj-focus);
@@ -592,14 +622,17 @@ button {
     .col {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       margin: 5rem 0;
 
       .card {
         padding: 1rem;
 
         & img {
+          width: 250px;
+          height: 180px;
           border-radius: 8px;
+          object-fit: fill ;
         }
 
         .blog-role {
@@ -621,7 +654,7 @@ button {
         }
 
         .blog-views {
-          padding-left: 3rem;
+          padding-left: 1rem;
         }
 
       }
@@ -637,18 +670,22 @@ button {
     flex-direction: column;
     width: 850px;
     margin-bottom: 5rem;
+    background-image: url(/public/img/maxcoach-shape-02.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: bottom 0 right 0;
 
     p {
-      font-size: 25px;
+      font-size: 16px;
       text-align: center;
-      margin: 1rem auto 4rem;
+      margin: 1rem 10rem 4rem;
     }
 
     .newsletter-subscribe {
       input {
         border: none;
         padding: 1rem 4rem;
-        font-size: 22px;
+        font-size: 18px;
         background-color: var(--proj-light);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -659,12 +696,14 @@ button {
         background-color: var(--proj-focus);
         color: var(--proj-lightest);
         padding: 1rem 2rem;
-        font-size: 22px;
+        font-size: 18px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
       }
     }
   }
+
+  /* /newsletter */
 }
 
 /* #endregion Main */

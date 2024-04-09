@@ -37,17 +37,20 @@ export default {
 
                     <div class="learn-left">
                         <div class="sub-title">everything in maxcoach</div>
-                        <h3>
+                        <h1>
                             Learn about our <span class="important-text">Work Culture</span> at MaxCoach
-                        </h3>
+                        </h1>
                         <p>
                             Spend some time to visit our website or head office and discover our current courses,
                             enrollment
                             procedure, and registration deadline. We're opening new classes every beginning of each
                             month.
                         </p>
-                        <div class="learn-question">Have questions? <a href="#" class="important-text">Get Free
-                                Guide</a>
+                        <div class="learn-question">Have questions?
+                            <a href="#" class="important-text">
+                                Get Free
+                                Guide <i class="fa-solid fa-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
                     <!-- /.learn-left -->
@@ -117,6 +120,10 @@ export default {
 
                 <div class="upgrade-top">
                     <div class="upgrade-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="202">
+                            <path class="elementor-shape-fill"
+                                d="M139.374 198.088c16.328 8.906 51.35-1.087 58.304-39.038 7.15-39.022-13.182-40.052-9.633-54.248 14.243-21.15 16.782-48.14 2.028-64.387-36.503-38.024-45.629 7.604-76.048-20.28C101.727 7.837 83.1-6.735 56.23 3.405 18.239 17.74 27.33 47.659 27.33 69.313c0 7.624-24.216 21.957-26.87 41.573-3.346 24.734 12.168 57.29 26.87 68.443 23.322 26.363 59.318 20.28 75.541 11.154 13.931-7.836 25.35 1.52 36.503 7.605z" />
+                        </svg>
                         <img src="/public/img/maxcoach-shape-05-100x100.png" alt="" class="shape-5">
                         <img src="/public/img/maxcoach-shape-07-100x100.png" alt="" class="shape-7">
                         <img src="/public/img/stock-full-hd-11-670x450.jpg" alt="" class="upgrade-img">
@@ -189,6 +196,7 @@ export default {
                     <div class="col">
                         <div class="card">
                             <img src="/public/img/stock-full-hd-03-480x298.jpg" alt="">
+                            <span class="free">Free</span>
                             <div class="card-content">
                                 <div class="online-price">$0.00</div>
                                 <p>Customer-centric Info-Tech Strategies</p>
@@ -368,7 +376,7 @@ export default {
         </section>
         <!-- /.testimonials -->
 
-        <section class="transform container">
+        <section class="transform">
             <div class="transform-left">
                 <img src="/public/img/home-3-team-image.png" alt="">
             </div>
@@ -386,68 +394,70 @@ export default {
             <!-- /.transorm-right -->
         </section>
         <!-- /.transform -->
+        <div class="bg-light">
+            <section class="blog container">
+                <div class="sub-title">read for more joyment</div>
+                <h1>Latest From <span class="important-text">Our Blogs</span></h1>
 
-        <section class="blog container">
-            <div class="sub-title">read for more joyment</div>
-            <h1>Latest From <span class="important-text">Our Blogs</span></h1>
+                <div class="col">
 
-            <div class="col">
-
-                <div class="card">
-                    <img src="/public/img/artist-blog-03-480x325.jpeg" alt="">
-                    <div class="blog-role">artist</div>
-                    <p>Brush Stroke Energize Trees in Paintings</p>
-                    <div>
-                        <span class="blog-date">
-                            <i class="fa-regular fa-calendar"></i>
-                            May 15, 2020
-                        </span>
-                        <span class="blog-views">
-                            <i class="fa-solid fa-eye"></i>
-                            608 views
-                        </span>
+                    <div class="card">
+                        <img src="/public/img/artist-blog-03-480x325.jpeg" alt="">
+                        <div class="blog-role">artist</div>
+                        <p>Brush Stroke Energize Trees in Paintings</p>
+                        <div>
+                            <span class="blog-date">
+                                <i class="fa-regular fa-calendar"></i>
+                                May 15, 2020
+                            </span>
+                            <span class="blog-views">
+                                <i class="fa-solid fa-eye"></i>
+                                608 views
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card -->
+                    <!-- /.card -->
 
-                <div class="card">
-                    <img src="/public/img/artist-blog-01-480x325.jpg" alt="">
-                    <div class="blog-role">artist</div>
-                    <p>Pocket-Sized Notebooks Hold Miniature Paintings</p>
-                    <div>
-                        <span class="blog-date">
-                            <i class="fa-regular fa-calendar"></i>
-                            May 15, 2020
-                        </span>
-                        <span class="blog-views">
-                            <i class="fa-solid fa-eye"></i>
-                            603 views
-                        </span>
+                    <div class="card">
+                        <img src="/public/img/artist-blog-01-480x325.jpg" alt="">
+                        <div class="blog-role">artist</div>
+                        <p>Pocket-Sized Notebooks Hold Miniature Paintings</p>
+                        <div>
+                            <span class="blog-date">
+                                <i class="fa-regular fa-calendar"></i>
+                                May 15, 2020
+                            </span>
+                            <span class="blog-views">
+                                <i class="fa-solid fa-eye"></i>
+                                603 views
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card -->
+                    <!-- /.card -->
 
-                <div class="card">
-                    <img src="/public/img/artist-blog-02-480x325.jpg" alt="">
-                    <div class="blog-role">artist</div>
-                    <p>Connection Between Self-Portraits and Identity</p>
-                    <div>
-                        <span class="blog-date">
-                            <i class="fa-regular fa-calendar"></i>
-                            May 15, 2020
-                        </span>
-                        <span class="blog-views">
-                            <i class="fa-solid fa-eye"></i>
-                            608 views
-                        </span>
+                    <div class="card">
+                        <img src="/public/img/artist-blog-02-480x325.jpg" alt="">
+                        <div class="blog-role">artist</div>
+                        <p>Connection Between Self-Portraits and Identity</p>
+                        <div>
+                            <span class="blog-date">
+                                <i class="fa-regular fa-calendar"></i>
+                                May 15, 2020
+                            </span>
+                            <span class="blog-views">
+                                <i class="fa-solid fa-eye"></i>
+                                608 views
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <!-- /.card -->
+                    <!-- /.card -->
 
-            </div>
-            <!-- /.col -->
-        </section>
-        <!-- /.blog -->
+                </div>
+                <!-- /.col -->
+            </section>
+            <!-- /.blog -->
+        </div>
+        <!-- /.bg-light -->
 
         <section class="newsletter container">
             <h1>Subscribe <span class="important-text">Newsletters</span></h1>
