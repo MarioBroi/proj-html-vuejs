@@ -388,20 +388,21 @@ export default {
         <!-- /.transform -->
 
         <section class="blog container">
-            <div>read for more joyment</div>
-            <h3>Latest From <span>Our Blogs</span></h3>
+            <div class="sub-title">read for more joyment</div>
+            <h1>Latest From <span class="important-text">Our Blogs</span></h1>
+
             <div class="col">
 
                 <div class="card">
                     <img src="/public/img/artist-blog-03-480x325.jpeg" alt="">
-                    <div>artist</div>
+                    <div class="blog-role">artist</div>
                     <p>Brush Stroke Energize Trees in Paintings</p>
                     <div>
-                        <span>
+                        <span class="blog-date">
                             <i class="fa-regular fa-calendar"></i>
                             May 15, 2020
                         </span>
-                        <span>
+                        <span class="blog-views">
                             <i class="fa-solid fa-eye"></i>
                             608 views
                         </span>
@@ -411,14 +412,14 @@ export default {
 
                 <div class="card">
                     <img src="/public/img/artist-blog-01-480x325.jpg" alt="">
-                    <div>artist</div>
+                    <div class="blog-role">artist</div>
                     <p>Pocket-Sized Notebooks Hold Miniature Paintings</p>
                     <div>
-                        <span>
+                        <span class="blog-date">
                             <i class="fa-regular fa-calendar"></i>
                             May 15, 2020
                         </span>
-                        <span>
+                        <span class="blog-views">
                             <i class="fa-solid fa-eye"></i>
                             603 views
                         </span>
@@ -428,14 +429,14 @@ export default {
 
                 <div class="card">
                     <img src="/public/img/artist-blog-02-480x325.jpg" alt="">
-                    <div>artist</div>
+                    <div class="blog-role">artist</div>
                     <p>Connection Between Self-Portraits and Identity</p>
                     <div>
-                        <span>
+                        <span class="blog-date">
                             <i class="fa-regular fa-calendar"></i>
                             May 15, 2020
                         </span>
-                        <span>
+                        <span class="blog-views">
                             <i class="fa-solid fa-eye"></i>
                             608 views
                         </span>
