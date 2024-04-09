@@ -15,6 +15,7 @@
   --proj-shade: #f5f1ed;
   --proj-dark: #696969;
   --proj-darker: #000;
+  --proj-footer-bg: #171621;
 }
 
 body {
@@ -666,5 +667,81 @@ button {
   }
 }
 
-
 /* #endregion Main */
+
+/* #region Footer */
+
+.site-footer {
+  background-color: var(--proj-footer-bg);
+  color: var(--proj-lightest);
+  padding-bottom: 5rem;
+  position: relative;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5rem 0;
+
+    & a {
+      color: var(--proj-lightest);
+      text-decoration: none;
+    }
+
+    .adress {
+      flex-grow: 3;
+
+      p {
+        padding: 0.5rem 0;
+      }
+
+      .footer-icons {
+        & i {
+          padding: 0.3rem;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .footer-top-right {
+      display: flex;
+      justify-content: center;
+
+      .explore,
+      .plain,
+      .info {
+        display: flex;
+
+        flex-direction: column;
+        margin: 0 2.5rem;
+
+        h3 {
+          padding-bottom: 1.3rem;
+        }
+
+        a {
+          padding: 0.3rem 0;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .up {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--proj-lightest);
+    background-color: var(--proj-focus);
+    border-radius: 50%;
+  }
+}
+
+/* #endregion Footer */
