@@ -8,16 +8,72 @@ export default {
 
     <header class="site-header">
 
-        <div class="dropdown">
+        <div class="header-dropdown">
 
             <a href="" class="home">
                 Home <i class="fa-solid fa-chevron-down"></i>
             </a>
             <!-- /.home -->
 
-            <a href="" class="pages">
+            <div class="pages">
                 Pages <i class="fa-solid fa-chevron-down"></i>
-            </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="">
+                            Start Here
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Success Story
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About us 01
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About us 02
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About us 03
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Contact me </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Contact us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Purchase Guide
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="last-drop">
+                            Terms of Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <!-- /.pages -->
 
             <a href="" class="courses">
@@ -41,7 +97,7 @@ export default {
             <!-- /.shop -->
 
         </div>
-        <!-- /.dropdown -->
+        <!-- /.header-dropdown -->
 
         <div class="logo">
             <img src="/public/img/dark-logo.png" alt="">

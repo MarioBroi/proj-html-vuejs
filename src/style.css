@@ -67,17 +67,63 @@ button {
   align-items: center;
   margin: 0.5rem 5rem;
 
-  .dropdown {
+  .header-dropdown {
     font-size: 14px;
 
-    a {
+    a,
+    div {
       padding: 0 0.8rem 0 0;
       text-decoration: none;
+      transition: 0.3s;
 
       i {
         font-size: 10px;
       }
     }
+
+    a:hover {
+      color: var(--proj-focus);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .pages {
+      display: inline-block;
+      position: relative;
+
+      a {
+        display: block;
+        padding: 0.5rem 1rem 0.3rem 0.5rem;
+        text-decoration: none;
+      }
+
+      .last-drop {
+        padding-bottom: 1rem;
+      }
+
+      .dropdown li {
+        display: block;
+      }
+
+      .dropdown {
+        width: 200px;
+        background-color: var(--proj-lightest);
+        position: absolute;
+        top: 45px;
+        left: -10px;
+        z-index: 999;
+        display: none;
+        /* border-bottom: 3px solid var(--proj-focus); */
+        box-shadow: 2px 8px 2px -2px rgba(16, 173, 150, 0.8);
+      }
+    }
+
+    .pages:hover ul.dropdown {
+      display: block;
+    }
+
   }
 
   .logo {
@@ -162,7 +208,7 @@ button {
     }
 
     .btn-jumbo {
-      font-weight: bolder;
+      font-weight: bold;
       padding: 1rem;
       border: none;
       border-radius: 12px;
@@ -171,7 +217,7 @@ button {
       transition: 0.3s;
     }
 
-    .btn-jumbo:hover{
+    .btn-jumbo:hover {
       color: var(--proj-lightest);
       background-color: var(--proj-focus);
     }
@@ -391,7 +437,7 @@ button {
               transition: 0.2s;
             }
 
-            p:hover{
+            p:hover {
               color: var(--proj-focus);
             }
 
@@ -644,7 +690,7 @@ button {
           width: 250px;
           height: 180px;
           border-radius: 8px;
-          object-fit: fill ;
+          object-fit: fill;
         }
 
         .blog-role {
@@ -753,7 +799,7 @@ button {
           transition: 0.3s;
         }
 
-         i:hover{
+        i:hover {
           color: var(--proj-focus);
         }
       }
@@ -780,7 +826,7 @@ button {
           transition: 0.2s;
         }
 
-        a:hover{
+        a:hover {
           color: var(--proj-focus);
         }
       }
