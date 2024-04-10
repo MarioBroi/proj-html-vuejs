@@ -162,12 +162,18 @@ button {
     }
 
     .btn-jumbo {
-      font-weight: bold;
+      font-weight: bolder;
       padding: 1rem;
       border: none;
       border-radius: 12px;
       color: var(--proj-focus);
       background-color: var(--proj-lighter);
+      transition: 0.3s;
+    }
+
+    .btn-jumbo:hover{
+      color: var(--proj-lightest);
+      background-color: var(--proj-focus);
     }
 
     .side-tools {
@@ -382,6 +388,11 @@ button {
             & p {
               font-size: 15px;
               font-weight: bold;
+              transition: 0.2s;
+            }
+
+            p:hover{
+              color: var(--proj-focus);
             }
 
             .card-bottom {
@@ -618,6 +629,7 @@ button {
     align-items: center;
     flex-direction: column;
     margin: 5rem auto;
+    padding: 5rem 0;
 
     .col {
       display: flex;
@@ -738,6 +750,11 @@ button {
         & i {
           padding: 0.3rem;
           font-size: 20px;
+          transition: 0.3s;
+        }
+
+         i:hover{
+          color: var(--proj-focus);
         }
       }
     }
@@ -760,6 +777,11 @@ button {
 
         a {
           padding: 0.3rem 0;
+          transition: 0.2s;
+        }
+
+        a:hover{
+          color: var(--proj-focus);
         }
       }
     }
